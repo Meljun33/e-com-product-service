@@ -26,8 +26,8 @@ class TokenMiddleware
         'http://localhost:8000/api/auth/token',
         [
             'headers' => [
-                'Authorization' => 'Bearer', $token,
-                'Accect' => 'application/json',
+                'Authorization' => 'Bearer '. $token,
+                'Accept' => 'application/json',
             ]
         ] 
             );
